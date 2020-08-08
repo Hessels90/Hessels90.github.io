@@ -2,9 +2,9 @@ import React from 'react'
 
 const Winners = () => {
     return (
-        <div>
+        <h1>
             Winners
-        </div>
+        </h1>
     )
 }
 

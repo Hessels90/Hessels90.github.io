@@ -8,7 +8,7 @@ const Page = () => {
   return (
     <div className="container">
       <Navigation>
-        <div>
+        <div style={{ display: "flex", justifyContent: "center"}}>
           <Router>
             <Switch>
               <Route exact path="/">

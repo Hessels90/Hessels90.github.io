@@ -2,9 +2,9 @@ import React from 'react'
 
 const Participants = () => {
     return (
-        <div>
-            Participants
-        </div>
+        <h1>
+            Her kan vi legge til deltagere
+        </h1>
     )
 }
 

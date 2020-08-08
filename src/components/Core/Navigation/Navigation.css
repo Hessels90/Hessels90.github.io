@@ -82,12 +82,6 @@
       margin: 0 1.5rem;
   }
 
-
-  /*
-  .navbar-nav:hover {
-      margin-left: 2rem;
-  }*/
-
   .navbar:hover .link-text {
       display: block;
   }
@@ -133,6 +127,10 @@
       transition: none;
     }
 
+    .fa-primary {
+      height: 50%;
+    }
+
     .logo {
         display: none;
     }
@@ -143,6 +141,12 @@
 
     .nav-link {
         justify-content: center;
+        flex-direction: column;
+    }
+
+    .link-text {
+      display: block;
+      margin-left: 0rem;
     }
     
     main {
@@ -162,7 +166,5 @@
       .navbar:hover {
         width: 16rem;
       }
-
-
   }
 
