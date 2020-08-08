@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Available Scripts
 
 In the project directory, you can run:
@@ -64,3 +65,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+=======
+# null-spretten
+A webpage for zero-bounce football with friends
+>>>>>>> 81e17bd78b1913c552ac1de61a64660b1a081e90
