@@ -4,11 +4,18 @@ import Navigation from "../../Core/index";
 import "./Page.css";
 import { FrontPage, Rules, Winners, Participants } from "../";
 
+import firebase from "../../../middleware/Firebase/firebase";
+
+firebase.firestore().collection("times").add({
+  title: "Rubik's Cube",
+  time_seconds: 45,
+});
+
 const Page = () => {
   return (
     <div className="container">
       <Navigation>
-        <div style={{ display: "flex", justifyContent: "center"}}>
+        <div style={{ display: "flex", justifyContent: "center" }}>
           <Router>
             <Switch>
               <Route exact path="/">
