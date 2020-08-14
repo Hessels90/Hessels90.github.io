@@ -1,0 +1,11 @@
+.frontpage-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logoasdf {
+    align-items: center;
+    color: black;
+}

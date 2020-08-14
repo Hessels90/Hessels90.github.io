@@ -4,12 +4,12 @@ import Navigation from "../../Core/index";
 import "./Page.css";
 import { FrontPage, Rules, Winners, Participants } from "../";
 
-import firebase from "../../../middleware/Firebase/firebase";
+// import firebase from "../../../middleware/Firebase/firebase";
 
-firebase.firestore().collection("times").add({
-  title: "Rubik's Cube",
-  time_seconds: 45,
-});
+// firebase.firestore().collection("times").add({
+//   title: "Rubik's Cube",
+//   time_seconds: 45,
+// });
 
 const Page = () => {
   return (

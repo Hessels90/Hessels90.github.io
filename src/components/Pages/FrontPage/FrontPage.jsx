@@ -1,16 +1,20 @@
-import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFutbol } from "@fortawesome/free-solid-svg-icons";
+import "./frontpage.css";
 
 const FrontPage = () => {
-    return (
-        <div style={{ width: "100vw", margin: "25px"}}>
-            <FontAwesomeIcon icon={faFutbol} className="fa-primary" style={{ color: "black", justifyContent: "center", alignItems: "center", display: "flex", width: "100vw", height: "20%"}} />
-            <h2>
-                Velkommen til null-spretten. Jeg tar gjerne imot input for ideer og funksjonalitet som jeg kan legge til.
-        </h2>
-        </div>
-    )
-}
+  return (
+    <div className="frontpage-container">
+      <FontAwesomeIcon icon={faFutbol} className="logoasdf" size="10x" />
+      <h2>
+        Velkommen til null-spretten. Jeg tar gjerne imot input for ideer og
+        funksjonalitet som jeg kan legge til.
+      </h2>
+
+      <a href="/participants"> Trykk her for å navigere til å legge til kamper</a>
+    </div>
+  );
+};
 
 export default FrontPage;
